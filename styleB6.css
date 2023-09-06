@@ -1,0 +1,43 @@
+.login{
+    margin: auto;
+    width: 400px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+}
+label{
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.cb1{
+    display: inline;
+    font-weight: normal;
+    margin-top: 10px;
+}
+input{
+    display: block;
+    width: 400px;
+}
+.cb2{
+    display: inline;
+    width: auto;
+    margin-top: 10px;
+}
+.l{
+    color: white;
+    background-color: green;
+    margin-top: 10px;
+}
+.c{
+    display: inline;
+    color: white;
+    background-color: red;
+    margin-top: 10px;
+    width: auto;
+}
+.pass{
+    display: inline;
+}

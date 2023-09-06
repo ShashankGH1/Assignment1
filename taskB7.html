@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./styleB7.css" rel="stylesheet">
+</head>
+<body>
+    <form class="login">
+        <table>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" name="name" id="name" placeholder="Your name"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" name="email" id="email" placeholder="Your email"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" name="password" id="password"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone number:</label></td>
+                <td><input type="number" name="phone" id="phone"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <label for="gender" id="male">Male:</label><input type="radio" name="gender">
+                    <label for="gender" id="female">Female:</label><input type="radio" name="gender">
+                    <label for="gender" id="other">Other:</label><input type="radio" name="gender">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="language">Language:</label></td>
+                <td>
+                    <select>
+                        <option value="select">Select language</option>
+                        <option value="hindi">Hindi</option>
+                        <option value="english">English</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="zip">Zip code:</label></td>
+                <td><input type="number" name="zip"></td>
+            </tr>
+            <tr>
+                <td><label for="about">About:</label></td>
+                <td><input type="textarea" name="about" placeholder="Write about yourself..."></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Register"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

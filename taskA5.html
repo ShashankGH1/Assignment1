@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 1px solid black; border-collapse: collapse;
+        }
+        td{
+            width: 500px;
+        }
+        input[type="text"]{
+            width: 500px;
+        }
+        input[type="password"]{
+            width: 500px;
+        }
+        input[type="number"]{
+            width: 500px;
+        }
+        input[type="tel"]{
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <caption style="color: blue;font-weight: bold;">Registration form</caption>
+            <tr>
+                <th><label for="firstname">First Name</label></th>
+                <td><input type="text" name="firstname"%></td>
+            </tr>
+            <tr>
+                <th><label for="lastname">Last Name</label></th>
+                <td><input type="text" name="lastname"></td>
+            </tr>
+            <tr>
+                <th><label for="email">Email</label></th>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <th><label for="password">Password</label></th>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <th><label for="password1">Re-enter Password</label></th>
+                <td><input type="password" name="password1"></td>
+            </tr>
+            <tr>
+                <th rowspan="2">Gender</th>
+                <td><input type="radio" name="gender" id="male" value="male"><label for="gender">Male</label></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="gender" id="female" value="female"><label for="gender">Female</label></td>
+            </tr>
+            <tr>
+                <th><label for="age">Age</label></th>
+                <td><input type="number" name="age"></td>
+            </tr>
+            <tr>
+                <th><label for="phone">Phone Number</label></th>
+                <td><input type="tel" name="phone"></td>
+            </tr>
+            <tr>
+                <th><label for="address">Address</label></th>
+                <td><input type="text" name="address" style="height: 100px;"></td>
+            </tr>
+            <tr>
+                <th><label for="state">State</label></th>
+                <td><input type="text" name="state"></td>
+            </tr>
+            <tr>
+                <th><label for="country">Country</label></th>
+                <td>
+                    <select name="country">
+                        <option value="choose">Choose your country</option>
+                        <option value="India">India</option>
+                        <option value="foreign">Outside India</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Languages known</th>
+                <td>
+                    <input type="checkbox" name="english" value="english"><label for="english">English</label>
+                    <input type="checkbox" name="kannada" value="kannada"><label for="kannada">Kannada</label>
+                    <input type="checkbox" name="hindi" value="hindi"><label for="hindi">Hindi</label>
+                    <input type="checkbox" name="telugu" value="telugu"><label for="telugu">Telugu</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" name="verification"><label for="verification">Hereby I declare all the given details are true</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    Log in to <a href="http://www.ethnus.com" target="_blank">ethnus</a> website
+                </td>
+            </tr>
+            <caption style="caption-side: bottom;">
+                <br>
+                <input type="button" name="submit" value="Register">
+            </caption>
+        </table>
+    </form>
+</body>
+</html>

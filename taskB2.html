@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul.list1{
+            list-style-type: none;
+            margin: 0%;
+            padding: 0%;
+            width: 100px;
+            background-color: lightblue;
+            cursor: pointer;
+        }
+        .list1 li{
+            display: block;
+            color: blue;
+            padding: 5px;
+        }
+        .list1 li:hover{
+            color: white;
+            background-color: orange;
+        }
+        .list1 li.active{
+            color: white;
+            background-color: orange;
+        }
+        ul.list2{
+            list-style-type: none;
+            margin: 0%;
+            padding: 0%;
+            overflow: hidden;
+            background-color: lightgray;
+            cursor: pointer;
+        }
+        .list2 li{
+            width: 70px;
+            float: left;
+            display: block;
+            color: blue;
+            padding: 5px;
+        }
+        .list2 li:hover{
+            color: white;
+            background-color: gray;
+        }
+        .list2 li.active{
+            color: white;
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <ul class="list1">
+        <li class="active">Home</li>
+        <li>Java</li>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>Bootstrap</li>
+    </ul>
+    <br>
+    <ul class="list2">
+        <li class="active">Home</li>
+        <li>Java</li>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>Bootstrap</li>
+    </ul>
+</body>
+</html>

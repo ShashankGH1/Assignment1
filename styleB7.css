@@ -1,0 +1,22 @@
+body{
+    background-color: palevioletred;
+    color: white;
+}
+.login{
+    margin: auto;
+    width: 500px;
+    background-color: brown;
+}
+table{
+    margin: auto;
+}
+input[type="submit"]{
+    width: 300px;
+}
+input[name="about"]{
+    height: 50px;
+    word-wrap: break-word;
+}
+td{
+    padding: 5px;
+}
